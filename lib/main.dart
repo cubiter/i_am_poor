@@ -9,7 +9,11 @@ void main() {
           backgroundColor: Color(0xFF9AE4AF),
           title: Text('I Am Poor'),
         ),
-        body: Center(),
+        body: Center(
+          child: Image(
+            image: AssetImage('assets/soccer.png'),
+          ),
+        ),
       ),
     ),
   );
